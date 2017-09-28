@@ -48,3 +48,28 @@ Desde su línea de comandos, sitúese en la ruta o directorio donde desee inicia
 Desde su línea de comandos, sitúese en la ruta o directorio donde ha clonado el código del repositorio (restapi-symfony3.3.9) y ejecutar el siguiente comando:
 
 * php bin/console server:run
+
+# Servicios expuestos por la API
+
+Los ejemplos cuentan con que la aplicación esté corriendo sobre http://localhost:8000/
+
+* Añadir Producto:
+
+  POST: http://localhost:8000/api/v1/product?sku=XXX&name=YYY&price=ZZZ
+
+* Actualizar Producto:
+
+  POST: http://localhost:8000/api/v1/product/update?id=AAA&sku=XXX&name=YYY&price=ZZZ
+
+* Borrar Producto:
+
+  POST: http://localhost:8000/api/v1/product/delete?id=AAA
+
+* Recuperar un único Producto:
+
+  GET: http://localhost:8000/api/v1/product/{id}
+
+* Recuperar todos los Productos:
+
+  GET: http://localhost:8000/api/v1/product
+  
