@@ -9,7 +9,7 @@ La tabla de productos responde a una estructura como la mostrada en la siguiente
     `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
     `price` double NOT NULL,
     PRIMARY KEY (`id`)
-    ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+    ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 # Instalación
 
